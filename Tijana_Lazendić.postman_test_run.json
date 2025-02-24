@@ -1,0 +1,332 @@
+{
+	"id": "889106ad-6d42-4474-80c1-a3d4d82f9abd",
+	"name": "Tijana_Lazendić",
+	"timestamp": "2025-02-16T18:15:15.164Z",
+	"collection_id": "40774704-90b2f3f0-a098-469e-b8b7-6e936fe01447",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-02-16T18:15:13.593Z",
+	"totalFail": 5,
+	"results": [
+		{
+			"id": "98bc7520-c49d-4a3d-9250-7b3ffacd68e1",
+			"name": "GET",
+			"url": "http://localhost:8080/student",
+			"time": 228,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get all test": true
+			},
+			"testPassFailCounts": {
+				"Get all test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				228
+			],
+			"allTests": [
+				{
+					"Get all test": true
+				}
+			]
+		},
+		{
+			"id": "0d7653e0-7265-4970-b242-7b381c6da84c",
+			"name": "POST NEW",
+			"url": "http://localhost:8080/student",
+			"time": 187,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Add test": false
+			},
+			"testPassFailCounts": {
+				"Add test": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				187
+			],
+			"allTests": [
+				{
+					"Add test": false
+				}
+			]
+		},
+		{
+			"id": "86ae4898-60f8-40bc-a361-913bba66ef56",
+			"name": "GET BY ID FIRST",
+			"url": "http://localhost:8080/student/1",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get by id=1 test 1": false
+			},
+			"testPassFailCounts": {
+				"Get by id=1 test 1": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Get by id=1 test 1": false
+				}
+			]
+		},
+		{
+			"id": "6ea2d57a-b2f3-457a-8fb2-5c9c16d7cd75",
+			"name": "PUT FOR FIRST",
+			"url": "http://localhost:8080/student/1",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Update test": false
+			},
+			"testPassFailCounts": {
+				"Update test": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Update test": false
+				}
+			]
+		},
+		{
+			"id": "77433bdb-0976-4cb1-9daa-dd05b1ac22f7",
+			"name": "GET BY ID SECOND",
+			"url": "http://localhost:8080/student/1",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get by id=1 test 2": false
+			},
+			"testPassFailCounts": {
+				"Get by id=1 test 2": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Get by id=1 test 2": false
+				}
+			]
+		},
+		{
+			"id": "e6867110-aac2-4b93-9cb6-16721400192f",
+			"name": "DELETE FIRST",
+			"url": "http://localhost:8080/student/1",
+			"time": 9,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Delete by id test": false
+			},
+			"testPassFailCounts": {
+				"Delete by id test": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Delete by id test": false
+				}
+			]
+		},
+		{
+			"id": "a308f5c6-edc3-42ae-aa2f-114b377ab43c",
+			"name": "GET",
+			"url": "http://localhost:8080/student",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get test 2": true
+			},
+			"testPassFailCounts": {
+				"Get test 2": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Get test 2": true
+				}
+			]
+		},
+		{
+			"id": "35d430ce-0bc6-4550-8657-d0c2fd3d6a02",
+			"name": "GET BY RANDOM ID",
+			"url": "http://localhost:8080/student/10",
+			"time": 5,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Get not existing id test": true
+			},
+			"testPassFailCounts": {
+				"Get not existing id test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Get not existing id test": true
+				}
+			]
+		},
+		{
+			"id": "c9be5a72-fc95-4631-91b3-7f1d34b62424",
+			"name": "PUT RANDOM",
+			"url": "http://localhost:8080/student/10",
+			"time": 5,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Put random id test": true
+			},
+			"testPassFailCounts": {
+				"Put random id test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Put random id test": true
+				}
+			]
+		},
+		{
+			"id": "e3109e40-d449-4568-a7b8-e81caa4e4484",
+			"name": "DELETE RANDOM",
+			"url": "http://localhost:8080/student/10",
+			"time": 5,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Delete not existing id test": true
+			},
+			"testPassFailCounts": {
+				"Delete not existing id test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Delete not existing id test": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 470,
+	"collection": {
+		"requests": [
+			{
+				"id": "98bc7520-c49d-4a3d-9250-7b3ffacd68e1",
+				"method": "GET"
+			},
+			{
+				"id": "0d7653e0-7265-4970-b242-7b381c6da84c",
+				"method": "POST"
+			},
+			{
+				"id": "86ae4898-60f8-40bc-a361-913bba66ef56",
+				"method": "GET"
+			},
+			{
+				"id": "6ea2d57a-b2f3-457a-8fb2-5c9c16d7cd75",
+				"method": "PUT"
+			},
+			{
+				"id": "77433bdb-0976-4cb1-9daa-dd05b1ac22f7",
+				"method": "GET"
+			},
+			{
+				"id": "e6867110-aac2-4b93-9cb6-16721400192f",
+				"method": "DELETE"
+			},
+			{
+				"id": "a308f5c6-edc3-42ae-aa2f-114b377ab43c",
+				"method": "GET"
+			},
+			{
+				"id": "35d430ce-0bc6-4550-8657-d0c2fd3d6a02",
+				"method": "GET"
+			},
+			{
+				"id": "c9be5a72-fc95-4631-91b3-7f1d34b62424",
+				"method": "PUT"
+			},
+			{
+				"id": "e3109e40-d449-4568-a7b8-e81caa4e4484",
+				"method": "DELETE"
+			}
+		]
+	}
+}
